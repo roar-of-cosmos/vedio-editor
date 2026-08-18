@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Vedio Editor — Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Vedio Editor</h1>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h2>Professional Video Editing Services</h2>
+        <p>We craft engaging videos for social, ads, events and more. Explore our work and get in touch.</p>
+        <a class="btn" href="#portfolio">See Portfolio</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h3>Services</h3>
+        <div class="cards">
+          <div class="card">
+            <h4>Social Media Edits</h4>
+            <p>Short, punchy clips optimized for Instagram, TikTok, YouTube Shorts.</p>
+          </div>
+          <div class="card">
+            <h4>Commercials & Ads</h4>
+            <p>Polished ad creatives with color grading, sound design and motion graphics.</p>
+          </div>
+          <div class="card">
+            <h4>Event Highlights</h4>
+            <p>Wedding, conference and event recaps that tell a story.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h3>Portfolio</h3>
+        <p class="muted">Click a thumbnail to view (placeholders).</p>
+        <div class="grid">
+          <!-- Replace placeholders with your actual video thumbnails or embeds -->
+          <div class="item">
+            <div class="thumb">
+              <img src="https://via.placeholder.com/320x180?text=Video+1" alt="Video 1">
+            </div>
+            <h5>Project Title 1</h5>
+          </div>
+
+          <div class="item">
+            <div class="thumb">
+              <img src="https://via.placeholder.com/320x180?text=Video+2" alt="Video 2">
+            </div>
+            <h5>Project Title 2</h5>
+          </div>
+
+          <div class="item">
+            <div class="thumb">
+              <img src="https://via.placeholder.com/320x180?text=Video+3" alt="Video 3">
+            </div>
+            <h5>Project Title 3</h5>
+          </div>
+
+          <div class="item">
+            <div class="thumb">
+              <img src="https://via.placeholder.com/320x180?text=Video+4" alt="Video 4">
+            </div>
+            <h5>Project Title 4</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <p class="muted">Use the form below or email us directly at <a href="mailto:hello@example.com">hello@example.com</a>.</p>
+
+        <!-- Simple contact form. Replace Formspree endpoint or handle submissions on server/GitHub Actions as needed. -->
+        <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+          <label>
+            Your name
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Your email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send</button>
+        </form>
+
+        <p class="note">If you prefer, clicking the email address will open your mail client.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Vedio Editor. All rights reserved.</p>
+      <p class="muted">Built to be hosted on GitHub Pages (see README).</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
